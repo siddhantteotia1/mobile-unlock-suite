@@ -1,0 +1,18 @@
+# Text file normalization
+# Do not edit manually
+# Project-specific overrides
+*.gif binary
+*.tsx linguist-detectable
+yarn.lock linguist-generated
+src/*.ts linguist-detectable
+*.md linguist-documentation
+*.min.css linguist-generated
+*.woff binary
+
+dist/* linguist-vendored
+
+public/index.html linguist-vendored
+*.html linguist-vendored
+*.yaml linguist-detectable=false
+
+# eof 95cc9540
